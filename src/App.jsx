@@ -94,7 +94,7 @@ export default function App() {
         </article>)}</div>
       </section>
 
-      <section className="work-interlude"><figure><img src="/images/pass-hero.jpg" alt="Руки бармена у рабочей стойки" loading="lazy" /><figcaption>ЗА СТОЙКОЙ / ПЕРЕД ОТКРЫТИЕМ <span>Иллюстрация создана ИИ</span></figcaption></figure><div><span className="mono">НЕ ТОЛЬКО КРАСИВЫЙ ФАРТУК</span><p>Навык.<br />Темп.<br /><em>Команда.</em></p><span>У каждой профессии свой характер.<br />Поможем разобраться до выбора школы.</span></div></section>
+      <section className="work-interlude"><figure><img src={`${import.meta.env.BASE_URL}images/pass-hero.jpg`} alt="Руки бармена у рабочей стойки" loading="lazy" /><figcaption>ЗА СТОЙКОЙ / ПЕРЕД ОТКРЫТИЕМ <span>Иллюстрация создана ИИ</span></figcaption></figure><div><span className="mono">НЕ ТОЛЬКО КРАСИВЫЙ ФАРТУК</span><p>Навык.<br />Темп.<br /><em>Команда.</em></p><span>У каждой профессии свой характер.<br />Поможем разобраться до выбора школы.</span></div></section>
 
       <section className="journey section">
         <Label number="03">МАРШРУТ В ПРОФЕССИЮ</Label>

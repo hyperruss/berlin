@@ -3,6 +3,7 @@ import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/berlin/',
   plugins: [react()],
   server: { watch: { ignored: ['**/.edge-profile*/**', '**/.preview/**'] } },
 })
